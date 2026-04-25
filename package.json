@@ -7,7 +7,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "start": "node .output/server/index.mjs",
+    "postinstall": "nuxt prepare",
+    "lint": "echo 'Linting not yet configured'",
+    "test": "echo 'Tests not yet configured'"
   },
   "dependencies": {
     "better-auth": "^1.6.9",
