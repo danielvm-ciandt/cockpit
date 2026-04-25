@@ -1,34 +1,25 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# ── GSD baseline (auto-generated) ──
-.gsd
-.gsd-id
-.mcp.json
-.bg-shell/
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
 .DS_Store
-Thumbs.db
-*.swp
-*.swo
-*~
-.idea/
-.vscode/
-*.code-workspace
+.fleet
+.idea
+
+# Local env files
 .env
 .env.*
 !.env.example
-node_modules/
-.next/
-dist/
-build/
-__pycache__/
-*.pyc
-.venv/
-venv/
-target/
-vendor/
-*.log
-coverage/
-.cache/
-tmp/
-
-# Ctxo local cache (auto-rebuilt, never committed)
-.ctxo/.cache/
+!.env.local.example
