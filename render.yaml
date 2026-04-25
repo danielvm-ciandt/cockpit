@@ -2,7 +2,7 @@ services:
   - type: web
     name: cockpit
     runtime: node
-    nodeVersion: 20
+    nodeVersion: 24
     plan: free
     buildCommand: npm install --legacy-peer-deps && npm run build
     startCommand: npm run start
