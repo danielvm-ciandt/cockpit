@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "context-mode": {
+            "command": "context-mode"
+            }
+        },
+        "render": {
+            "url": "https://mcp.render.com/mcp",
+            "headers": {
+                "Authorization": "Bearer rnd_gS8V0KzDoWiWS5uxm7O26736qI5q"
+            }
+        }
+  }

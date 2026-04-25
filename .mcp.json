@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "gsd-workflow": {
+      "command": "/usr/local/bin/node",
+      "args": [
+        "/Users/danielvm/.npm-global/lib/node_modules/gsd-pi/packages/mcp-server/dist/cli.js"
+      ],
+      "cwd": "/Users/danielvm/Sites/cockpit",
+      "env": {
+        "GSD_CLI_PATH": "/Users/danielvm/.npm-global/bin/gsd",
+        "GSD_WORKFLOW_EXECUTORS_MODULE": "/Users/danielvm/.gsd/agent/extensions/gsd/tools/workflow-tool-executors.js",
+        "GSD_WORKFLOW_WRITE_GATE_MODULE": "/Users/danielvm/.gsd/agent/extensions/gsd/bootstrap/write-gate.js",
+        "GSD_PERSIST_WRITE_GATE_STATE": "1",
+        "GSD_WORKFLOW_PROJECT_ROOT": "/Users/danielvm/Sites/cockpit"
+      }
+    },
+    "ctxo": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "ctxo-mcp"
+      ]
+    }
+  }
+}

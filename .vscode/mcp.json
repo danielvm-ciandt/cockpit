@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "ctxo": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "ctxo-mcp"
+      ]
+    }
+  }
+}
